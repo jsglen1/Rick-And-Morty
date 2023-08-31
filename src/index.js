@@ -9,11 +9,16 @@ import {
 } from "react-router-dom";
 import Profile from './components/Profile';
 import ErrorPage from './components/ErrorPage';
+import Welcome from './components/Welcome';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/welcome/",
+    element: <Welcome />,
   },
   {
     path: "/profile/:id",

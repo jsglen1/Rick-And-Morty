@@ -12,7 +12,7 @@ export default function Navbar() {
 
                 <h1 className="text-white hover:text-gray-300 transition">
                     <Link to={"/"} className="text-white hover:text-gray-300 transition">
-                        NEXT JS
+                        Rick y Morty
                     </Link>
 
                 </h1>
@@ -29,13 +29,13 @@ export default function Navbar() {
 
                 <div className="hidden md:flex gap-2">
 
-                    {/* 
+
                     <li >
-                    <Link to={"/profile"} className="text-white hover:text-gray-300 transition">
-                    Profile
-                    </Link>
+                        <Link to={"/welcome"} className="text-white hover:text-gray-300 transition">
+                            Bienvenido
+                        </Link>
                     </li>
-                     */}
+
 
                 </div>
 
